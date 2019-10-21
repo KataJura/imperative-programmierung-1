@@ -4,7 +4,7 @@ program pythagoras(input,output);
     a, b, c ∈ ℕ
     
   Ausgabe:
-    x ∈ {true, false}
+  x ∈ [true, false]
   
   Nachbedingung:
     x ist true, genau dann wenn jedes Dreieck mit den Seitenlängen a, 
