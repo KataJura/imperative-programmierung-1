@@ -1,11 +1,11 @@
-# Kurseinheit 2
+# Kurseinheit 1
 ## Einsendeaufgaben für Imperative Programmierung (01613)
 
-Ihr findet für jede Aufgabe in der jeweiligen Kurseinheit einen eigenen Unterfolder. Ein Person wird jeweils immer ein Master-file erstellen mit dem `Aufgabe-X_MASTER`, wobei `X` für die entsprechende Aufgabe steht. Dieses Masterfile enthält an den Stellen, an denen ihr Aufgaben erfüllen müsst, ein Kommentar mit `{ Your code goes here... }`. 
+Ihr findet für jede Aufgabe in der jeweiligen Kurseinheit einen eigenen Unterfolder. Eine Person wird jeweils immer ein Masterfile erstellen mit dem Namen `Aufgabe-X_MASTER`, wobei `X` für die entsprechende Aufgabe steht. Dieses Masterfile enthält an den Stellen, an denen ihr Aufgaben erfüllen müsst, ein Kommentar mit `{ Your code goes here... }`. 
 
-Erstellt bitte jeweils eine Kopie dieses Masterfiles für euch selbst und benennt es folgendermaßen um `Aufgabe-X_Vorname_Nachname`, wobei ihr `X`, `Vorname` und `Nachname` entsprechend ersetzt.
+Erstellt bitte jeweils eine Kopie dieses Masterfiles für euch selbst und benennt es nach dem Schema `Aufgabe-X_Vorname_Nachname` um, wobei ihr `X`, `Vorname` und `Nachname` entsprechend ersetzt.
 
-***Bitte löscht keine Files, die nicht euch selbst gehören und laden keine unnötigen Daten hoch! Sollte jemand versehentlich oder absichtlich Content anderer User löschen oder überschreiben, setzen wir das Repository auf einen älteren Commit zurück. Sollte uns auffallen, dass Files hochgeladen werden, die nicht hierhergehören, werden diese gelöscht und der File- oder Directoryname im `.gitignore` File eingetragen. Das gleiche gilt dafür, wenn jemand eigenständig eine neue Branch erstellt.***
+***Bitte löscht keine Files, die nicht euch selbst gehören und ladet keine unnötigen Dateien hoch! Sollte jemand versehentlich oder absichtlich Content anderer User löschen oder überschreiben, setzen wir das Repository auf einen älteren Commit zurück. Sollte uns auffallen, dass Files hochgeladen werden, die nicht hierher gehören, werden diese gelöscht und der File- oder Directoryname in `.gitignore` eingetragen. Das gleiche gilt dafür, wenn jemand eigenständig eine neue Branch erstellt.***
 
 ## Happy Coding! =)
 
@@ -17,14 +17,14 @@ Git und Github sind zwei verschiedene Dinge:
 ### Git
 ist ein Version-Control-System - ein eigenständiges Programm, dass ihr lokal auf eurem Rechner installiert. [Wie man das macht, erkläre ich weiter unten](#git-auf-dem-computer-installieren).
 
-Git ermöglicht es auf einem lokalen Computer den Fortschritt beim Programmieren in regelmäßigen Abständen zu speichern, so dass man jederzeit Änderungen wieder zurücksetzen kann. Der Kern von Git ist aber, dass es ermöglicht mehrere Kopien ("Branches") eines Projektes zu erstellen, die man unabhängig voneinander bearbeiten kann. Git führt Buch über geänderte Files im Projekt und ermöglicht es Branches dann wieder zusammenzuführen und gegebenenfalls Mergekonflikte aufzuzeigen.
+Git ermöglicht es auf einem lokalen Computer den Fortschritt beim Programmieren in regelmäßigen Abständen zu speichern, so dass man jederzeit Änderungen wieder zurücksetzen kann. Der Kern von Git ist aber, dass es ermöglicht mehrere Kopien ("Branches") eines Projektes zu erstellen, die man unabhängig voneinander bearbeiten kann. Git führt Buch über geänderte Files im Projekt und ermöglicht es Branches anschließend wieder zusammenzuführen und gegebenenfalls Mergekonflikte aufzuzeigen.
 
 ### Github
-ist ein Online Datenbank für Code, die nahtlos mit Git interagiert. Github ermöglicht die Zusammenarbeit im Team, ohne dass man sich einen eigenen Server teilen muss, auf dem man die einzelnen lokalen Versionen des Projektes managt. Darüber hinaus dient es aber auch ganz grundsätzlich dazu Programmierprojekte online abzuspeichern, um von verschiedenen Geräten darauf zugreifen zu können, seine Arbeit zu Schau zu stellen und andere zur Mitarbeit einzuladen.
+ist ein Online Datenbank für Code, die nahtlos mit Git interagiert. Github ermöglicht die Zusammenarbeit im Team, ohne dass man sich einen eigenen Server teilen muss, auf dem man die einzelnen lokalen Versionen des Projektes managet. Darüber hinaus dient es aber auch ganz grundsätzlich dazu Programmierprojekte online abzuspeichern, um von verschiedenen Geräten darauf zugreifen zu können, seine Arbeit zu Schau zu stellen und andere zur Mitarbeit einzuladen.
 
 ## Workflow
 
-*Im Folgenden wird davon ausgegangen, dass ihr grundsätzlich mit der Commandozeile vertraut seid. Ansonsten könnt ihr 5min Tutorials sicherlich auf Youtube finden, für welches OS ihr auch immer benutzt*
+*Im Folgenden wird davon ausgegangen, dass ihr grundsätzlich mit der Kommandozeile vertraut seid. Ansonsten könnt ihr 5min Tutorials sicherlich auf Youtube finden, für welches OS ihr auch immer benutzt*
 
 #### Das erste Mal das Repository von Github auf den lokalen Rechner klonen
 
@@ -33,7 +33,7 @@ ist ein Online Datenbank für Code, die nahtlos mit Git interagiert. Github erm�
    C:\> cd mein\toller\pfad\zu\meinen\projekten
    ```
 
-2. Im Github Repository (z.B. `https://github.com/fuh-informatik/imperative-programmierung-2`) finden ihr rechts oberhalb der Übersicht über die Directory einen grünen Button `Clone or download`, der URL zum Repository enthält. Kopiert diese und kehrt zurück zur Kommandozeile. Tippt den Befehl `git clone` ein und fügt die URL, die ihr auf Github kopiert habt hinzu. Tippt dann auf Enter. Das sieht z.B. so aus:
+2. Im Github Repository (z.B. `https://github.com/fuh-informatik/imperative-programmierung-2`) finden ihr rechts oberhalb der Übersicht über die Directory einen grünen Button `Clone or download`, der die URL zum Repository enthält. Kopiert diese und kehrt zurück zur Kommandozeile. Tippt den Befehl `git clone` ein und fügt die URL, die ihr auf Github kopiert habt hinzu. Tippt dann auf Enter. Das sieht z.B. so aus:
    ```
    C:\langer...pfad\projekte> git clone https://github.com/fuh-informatik/imperative-programmierung-2.git
    ```
