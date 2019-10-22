@@ -1,9 +1,9 @@
 # Kurseinheit 1
 ## Einsendeaufgaben für Imperative Programmierung (01613)
 
-Ihr findet für jede Aufgabe in der jeweiligen Kurseinheit einen eigenen Unterfolder. Eine Person wird jeweils immer ein Masterfile erstellen mit dem Namen `Aufgabe-X_MASTER`, wobei `X` für die entsprechende Aufgabe steht. Dieses Masterfile enthält an den Stellen, an denen ihr Aufgaben erfüllen müsst, ein Kommentar mit `{ Your code goes here... }`. 
+Ihr findet für jede Aufgabe in der jeweiligen Kurseinheit einen eigenen Unterfolder. Eine Person wird jeweils immer ein Masterfile erstellen mit dem Namen `aufgabe-X_MASTER`, wobei `X` für die entsprechende Aufgabe steht. Dieses Masterfile enthält an den Stellen, an denen ihr Aufgaben erfüllen müsst, ein Kommentar mit `{ Your code goes here... }`. 
 
-Erstellt bitte jeweils eine Kopie dieses Masterfiles für euch selbst und benennt es nach dem Schema `Aufgabe-X_Vorname_Nachname` um, wobei ihr `X`, `Vorname` und `Nachname` entsprechend ersetzt.
+Erstellt bitte jeweils eine Kopie dieses Masterfiles für euch selbst und benennt es nach dem Schema `aufgabe-X_vorname` um, wobei ihr `X` und `Vorname` entsprechend ersetzt.
 
 ***Bitte löscht keine Files, die nicht euch selbst gehören und ladet keine unnötigen Dateien hoch! Sollte jemand versehentlich oder absichtlich Content anderer User löschen oder überschreiben, setzen wir das Repository auf einen älteren Commit zurück. Sollte uns auffallen, dass Files hochgeladen werden, die nicht hierher gehören, werden diese gelöscht und der File- oder Directoryname in `.gitignore` eingetragen. Das gleiche gilt dafür, wenn jemand eigenständig eine neue Branch erstellt.***
 
